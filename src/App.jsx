@@ -29,6 +29,7 @@ import Mensaje from './components/Mensaje';
 import ListaProductos from './components/ListaProductos';
 import Carrito from './components/Carrito';
 import Noticias from './components/Noticias';
+import FormularioContacto from './components/FormularioContacto';
 import Footer from './components/Footer';
 
 import { describirErrorFetch } from './utils/errores';
@@ -292,6 +293,7 @@ function App() {
         />
         <Carrito carrito={carrito} onQuitar={quitarDelCarrito} />
         <Noticias />
+        <FormularioContacto />
       </main>
       <Footer />
     </>

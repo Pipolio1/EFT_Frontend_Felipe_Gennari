@@ -4,7 +4,7 @@
  */
 function Footer() {
   return (
-    <footer id="contacto" className="text-center py-4 px-3 mt-4">
+    <footer className="text-center py-4 px-3 mt-4">
       <h2 className="fs-4">Contacto</h2>
       <p>Email: contacto@gaminghouse.cl</p>
       <p>Síguenos en redes sociales:</p>
